@@ -1,3 +1,4 @@
+#!/usr/bin/python3.7
 """ multivariate-linear-regression.py
     Algoritmo que implementa el Gradiente Descendiente 
     para un algoritmo de regresion lineal multivariado
@@ -30,7 +31,7 @@ def main():
 	x_train, y_train, mean, std, features = uf.load_data('training-data-multivariate.csv')
 
 	# Se inicializa los hiperparametros
-	learning_rate = 0.5
+	learning_rate = 0.0005
 	stopping_criteria = 0.01
 
 	# Inicializa w
